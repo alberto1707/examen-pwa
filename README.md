@@ -60,4 +60,35 @@ Observacion de las configuraciones pertinentes
 
 "serviceWorker": "ngsw-config.json" (angular.json)
 
-<link rel="manifest" href="manifest.webmanifest"> (index.html)
+(index.html)
+```bash
+<link rel="manifest" href="manifest.webmanifest"> 
+```
+
+## 8 Offline para la pagina principal
+
+Configuracion en ngsw-config.json
+
+```bash
+  {
+    "name": "assets",
+    "installMode": "prefetch",
+    "updateMode": "prefetch",
+    "resources": {
+      "files": [
+        "/**/*.(svg|cur|jpg|jpeg|png|apng|webp|avif|gif|otf|ttf|woff|woff2)",
+        "/assets/**",
+        "/assets/template/**"
+      ]
+    }
+  }
+```
+
+### Prueba Offline
+
+- Correr en produccion `ng build --configuration production`
+- Instalar servicio `http-server`
+- Verificación en Chrome
+  - Service worker activo.
+  - Manifest detectado
+  - Modo offline.
