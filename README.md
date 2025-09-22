@@ -48,3 +48,16 @@ Enrutar entre Home y UI, ajustes en sus componentes .ts
 
 Accesibilidad en el boton de busqueda y enlace de las tarjetas de colores.
 
+## 7 Activar PWA (Service Worker y manifest)
+
+Habilitacion de PWA en el proyecto "examen-pwa"
+
+```bash
+ng add @angular/pwa --project examen-pwa
+```
+
+Observacion de las configuraciones pertinentes
+
+"serviceWorker": "ngsw-config.json" (angular.json)
+
+<link rel="manifest" href="manifest.webmanifest"> (index.html)
