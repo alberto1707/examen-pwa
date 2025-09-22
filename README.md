@@ -21,3 +21,9 @@ Se agregó en angular.json
   "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
 ]
 ```
+
+## 3 Descargar Template con Bootstrap
+
+Template: SB Admin Angular
+Fuente: [https://startbootstrap.com/template/sb-admin-angular]
+Licencia: MIT
