@@ -25,5 +25,13 @@ Se agregó en angular.json
 ## 3 Descargar Template con Bootstrap
 
 Template: SB Admin Angular
+
 Fuente: [https://startbootstrap.com/template/sb-admin-angular]
+
 Licencia: MIT
+
+## 4 Integrar template en Home
+
+Creación del componente Home, donde se agregó:
+
+Navbar, Sidebar y Footer
