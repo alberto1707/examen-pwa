@@ -41,3 +41,10 @@ Navbar, Sidebar y Footer.
 Ruta /ui, donde se agrego los componentes:
 
 Sidebar, navbar, footer y tarjetas de colores
+
+## 6 Ruteo y accesibilidad básica
+
+Enrutar entre Home y UI, ajustes en sus componentes .ts
+
+Accesibilidad en el boton de busqueda y enlace de las tarjetas de colores.
+

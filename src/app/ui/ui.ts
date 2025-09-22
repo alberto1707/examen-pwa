@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-ui',
@@ -8,5 +9,7 @@ import { RouterModule } from '@angular/router';
   styleUrl: './ui.scss'
 })
 export class Ui {
-
+  constructor(private titleService: Title) {
+    this.titleService.setTitle('UI - Examen PWA');
+  }
 }
