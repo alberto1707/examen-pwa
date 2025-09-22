@@ -34,4 +34,10 @@ Licencia: MIT
 
 Creación del componente Home, donde se agregó:
 
-Navbar, Sidebar y Footer
+Navbar, Sidebar y Footer.
+
+## 5 Página de demostracion /ui
+
+Ruta /ui, donde se agrego los componentes:
+
+Sidebar, navbar, footer y tarjetas de colores
